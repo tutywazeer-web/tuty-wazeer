@@ -62,7 +62,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has bee
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
-BOT_STATS_TEXT = "Hi, I'm alive and ready to store and share files.\n\n<b>⏱ UPTIME :</b>{uptime}"
+BOT_STATS_TEXT = "Hi, I'm alive and ready to store and share files.\n\n<b>⏱ UPTIME : </b>{uptime}"
 USER_REPLY_TEXT = "If you have any problems in the episodes or need any other animes inform it in our group @BorutoTamil"
 
 ADMINS.append(OWNER_ID)
